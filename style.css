@@ -1,0 +1,292 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+/*-----navigation-----*/
+#nav-bar{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.navbar-brand img
+{
+  height: 75px;
+  padding-left: 30px;
+}
+.navbar-nav li{
+  padding: 0 10px;
+}
+.navbar-nav li a{
+  text-align: left;
+  float: right;
+}
+#nav-bar ul li a: hover
+{
+  color: #007bff!important;
+}
+.navbar{
+  background: #fff;
+}
+.navbar-toggler{
+  border: none!important;
+}
+.nav-link{
+  color: #e3871e !important;
+  font-weight:600;
+  font-size: 16px;
+}
+/*-----Slider-----*/
+#slider{
+  width: 100%;
+}
+.carousel-caption{
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial!important;
+}
+.carousel-caption h5
+{
+  color: #000000;
+  font-size: 42px;
+}
+.carousel-caption p{
+  color: #000000;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+/*----------about-----------*/
+#about{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #3e423f;
+  background: url(img/bg1.gif);
+  background-size: cover;
+
+}
+#about h1
+{
+  color: #614191 !important;
+  text-align: center;
+}
+#about h5{
+  color: #4e0573;
+}
+#about .btn{
+  margin-top: 80px;
+  margin-bottom: 10px;
+  margin-left: 450px;
+}
+.about-content{
+  padding-top: 20px;
+}
+.skills-bar p{
+  margin-bottom: 6px;
+  font-weight:600;
+}
+.progress-bar{
+  border-radius: 16px;
+}
+.progress{
+  border-radius: 16px !important;
+  margin-bottom: 20px;
+}
+/*----hobies----*/
+#hobbies{
+  background-image: url(img/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #efefef !important;
+  background-attachment: fixed;
+  padding-top:50px;
+  padding-bottom: 50px;
+}
+#hobbies h1{
+  text-align: center;
+  color: #efefef !important;
+  padding-bottom: 10px;
+}
+#hobbies h1::after
+{
+  content: '';
+  background: #efefef;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+.icon
+{
+  padding-top:25px;
+}
+#hobbies p{
+  font-size: 14px;
+  margin-top: 20px;
+  color: #ccc;
+}
+.hobbies .col-md-3:hover{
+  background: #007bff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#hobbies .btn{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 600px;
+}
+/*-----------interests--------*/
+#interests{
+  padding-top: 30px;
+  padding-bottom: 50px;
+  color: #555;
+  background: url(img/bg2.gif);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+h1
+{
+  text-align: center;
+  color: #555 !important;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+#interests h1::after
+{
+  content: '';
+  background: #efefef;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+.profile-pic
+{
+  margin-top: 25px;
+}
+.profile-pic h3
+{
+  color: #007bff !important;
+}
+.profile-pic p{
+  padding-top: 25px;
+}
+/*---------------contact-----------*/
+#contact
+{
+  background-image: url(img/bg5.png);
+  background-size: cover;
+  background-position: center;
+  color: #4e718a;
+  background-attachment: fixed;
+  text-align: center;
+  padding: 100px;
+  font-family: sans-serif;
+  font-size: 38px;
+}
+#examples
+{
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(img/bg4.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #ffffff !important;
+  background-attachment: fixed;
+  padding-top:50px;
+  padding-bottom: 50px;
+
+}
+h2
+{
+  text-align: center;
+  color: #ffffff !important;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+/*-------------getintouch-----------*/
+#cont
+{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/cont.gif);
+  background-size: cover;
+  background-position: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #777;
+}
+#cont h1
+{
+  color: #ffffff !important;
+}
+#cont h4
+{
+  color: #ffffff !important;
+}
+#cont h5
+{
+  color: #ffffff !important;
+}
+
+.contact-form
+{
+  padding: 15px;
+
+}
+.form-control
+{
+  border-radius: 0 !important;
+  border: none !important;
+}
+::placeholder
+{
+  color: #777 !important;
+}
+.follow{
+  background: #fff;
+  padding: 10px;
+  margin: 15px;
+}
+.contact-info .fa
+  {
+    margin: 10px;
+    color:#007bff;
+    font-weight:bold;
+  }
+  .fa-beat {
+  animation:fa-beat 5s ease infinite;
+}
+@keyframes fa-beat {
+  0% {
+    transform:scale(1);
+  }
+  5% {
+    transform:scale(1.25);
+  }
+  20% {
+    transform:scale(1);
+  }
+  30% {
+    transform:scale(1);
+  }
+  35% {
+    transform:scale(1.25);
+  }
+  50% {
+    transform:scale(1);
+  }
+  55% {
+    transform:scale(1.25);
+  }
+  70% {
+    transform:scale(1);
+  }
+}
+#footer
+{
+  background: #333;
+  color: #fff;
+  padding: 12px;
+}
+.fa-heart{
+  margin: 3px;
+  color: red;
+}
